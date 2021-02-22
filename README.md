@@ -1,5 +1,8 @@
-## Project Life 
+# R
 
-Last build date: Sun Jan 17 15:28:27 EST 2021
+test_matrix <- matrix( c(5, 1, 0,3,-1, 2, 4, 0,-1), nrow=3, byrow=TRUE)
 
-Lines of code in guessinggame.sh: 22
+test_matrix_cached = makeCacheMatrix(test_matrix)
+
+cacheSolve(test_matrix_cached)
+
