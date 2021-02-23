@@ -1,8 +1,8 @@
-# R
+# R-epo
 
-test_matrix <- matrix( c(5, 1, 0,3,-1, 2, 4, 0,-1), nrow=3, byrow=TRUE)
+[R_function_for_caching_matrix_operations](fCacheInverse.R)
 
-test_matrix_cached = makeCacheMatrix(test_matrix)
+![rfunction](r.png)
 
-cacheSolve(test_matrix_cached)
+
 
